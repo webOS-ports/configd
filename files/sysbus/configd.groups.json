@@ -1,6 +1,14 @@
 {
-    "allowedNames": ["com.webos.service.config"],
-    "systemconfig.query" : ["oem"],
-    "systemconfig.management" : ["oem"],
-    "systemconfig.devutility" : ["oem"]
+    "configd": {
+        "description": "Allows getConfigs",
+        "public": true
+    },
+    "configd.internal": {
+        "description": "Allows configd's private API",
+         "public": false
+    },
+    "configd.private": {
+        "description": "deprecated or incomplete methods",
+        "public": false
+    }
 }
