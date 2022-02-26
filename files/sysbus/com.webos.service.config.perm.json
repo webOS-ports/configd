@@ -10,6 +10,7 @@
         "time.query",
         "power.operation",
         "power.management",
-        "filecache.management"
+        "filecache.management",
+        "tv.settings"
     ]
 }
